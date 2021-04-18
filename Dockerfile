@@ -5,6 +5,8 @@ ENV COMPOSE_VERSION 1.29.1
 RUN apk update && \
     apk add --no-cache \
     ca-certificates \
+    rust \
+    cargo \
     py-pip python3-dev \
     libffi-dev \
     openssl-dev \
