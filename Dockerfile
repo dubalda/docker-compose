@@ -1,6 +1,6 @@
-FROM docker:19.03.12-git
+FROM docker:20.10.6-git
 
-ENV COMPOSE_VERSION 1.26.2
+ENV COMPOSE_VERSION 1.29.1
 
 RUN apk update && \
     apk add --no-cache \
